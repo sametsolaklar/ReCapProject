@@ -25,8 +25,8 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (ReCapProjectContext context = new ReCapProjectContext())
             {
-                var deleteCar = context.Entry(car);
-                deleteCar.State = EntityState.Deleted;
+                var deletedCar = context.Entry(car);
+                deletedCar.State = EntityState.Deleted;
                 context.SaveChanges();
             }
         }
