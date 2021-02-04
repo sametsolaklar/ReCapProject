@@ -1,3 +1,3 @@
 ### Github
-## Araba Kiralama Sistemi InMemory
+## Araba Kiralama Sistemi EntityFramework
 # Samet SOLAKLAR
