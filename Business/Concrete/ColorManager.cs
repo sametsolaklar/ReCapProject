@@ -27,10 +27,15 @@ namespace Business.Concrete
             }
             
         }
+        public void Delete(Color color)
+        {
+            _colorDal.Delete(color);
+        }      
 
         public List<Color> GetAll()
         {
             return _colorDal.GetAll();
         }
+      
     }
 }
