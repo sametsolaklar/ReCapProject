@@ -9,24 +9,24 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            Color color1 = new Color { ColorId = 11, ColorName = "Dark Blue" };
-            Color color2 = new Color { ColorId = 12, ColorName = "Dark Grey" };
-            Color color3 = new Color { ColorId = 13, ColorName = "Light Red" };
+            //Color color1 = new Color { ColorName = "Dark Red" };
+            //Color color2 = new Color {  ColorName = "Dark Grey" };
+            //Color color3 = new Color {  ColorName = "Light Red" };
             //ColorAdd(color1);
             //ColorAdd(color2);
             //ColorAdd(color3);
             //ColorDelete(color1);
-            Brand brand1 = new Brand { BrandId = 11, BrandName = "BMW" };
-            Brand brand2 = new Brand { BrandId = 12, BrandName = "Mercedes" };
-            Brand brand3 = new Brand { BrandId = 13, BrandName = "Audi" };
+            //Brand brand1 = new Brand { BrandName = "BMW" };
+            //Brand brand2 = new Brand { BrandName = "Mercedes" };
+            //Brand brand3 = new Brand { BrandName = "Audi" };
             //BrandAdd(brand1);
             //BrandAdd(brand2);
             //BrandAdd(brand3);
             //BrandDelete(brand3);
 
-            Car car1 = new Car { CarId = 4, BrandId = 11, CarModelYear = 2020, ColorId = 11, CarDailyPrice = 300, CarDescription = "BMW 340i M Sport 2020" };
-            Car car2 = new Car { CarId = 5, BrandId = 12, CarModelYear = 2020, ColorId = 12, CarDailyPrice = 300, CarDescription = "Mercedes AMG CLA 45s 4MATIC" };
-            Car car3 = new Car { CarId = 6, BrandId = 13, CarModelYear = 2020, ColorId = 13, CarDailyPrice = 350, CarDescription = "Audi RS6" };
+            //Car car1 = new Car {  BrandId = 11, CarModelYear = 2020, ColorId = 11, CarDailyPrice = 300, CarDescription = "BMW  M Sport 2020" };
+            //Car car2 = new Car {  BrandId = 12, CarModelYear = 2020, ColorId = 12, CarDailyPrice = 300, CarDescription = "Mercedes AMG CLA 63s 4MATIC" };
+            //Car car3 = new Car { BrandId = 13, CarModelYear = 2020, ColorId = 13, CarDailyPrice = 350, CarDescription = "Audi A6" };
             //CarAdd(car1);
             //CarAdd(car2);
             //CarAdd(car3);
@@ -35,11 +35,11 @@ namespace ConsoleUI
             //CarDelete(car3);
 
 
-            //ColorTest();
+            ColorTest();
 
             //BrandTest();
 
-            CarTest();
+            //CarTest();
 
         }
 
