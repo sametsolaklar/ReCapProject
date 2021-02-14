@@ -20,10 +20,10 @@ namespace ConsoleUI
         private static void RentalTest()
         {
             RentalManager rentalManager = new RentalManager(new EfRentalDal());
-            var result = rentalManager.GetRentalDetail();
+            var result = rentalManager.GetAll();
             foreach (var rental in result.Data)
             {
-                Console.WriteLine(rental.CarDescription + " / " + rental.CompanyName + " / " + rental.DailyPrice + " / " + rental.RentalDate);
+                Console.WriteLine(rental.Id);
             }
         }
 

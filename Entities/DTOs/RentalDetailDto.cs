@@ -10,7 +10,7 @@ namespace Entities.DTOs
         public string CarDescription { get; set; }
         public string CompanyName { get; set; }
         public decimal DailyPrice { get; set; }
-        public DateTime RentalDate { get; set; }
+        public DateTime? RentalDate { get; set; }
 
 
     }
